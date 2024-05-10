@@ -1,7 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    margin: 0;
 }
 
 .container {
@@ -10,8 +12,7 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #222; /* Darker header background color */
     padding: 20px 0;
 }
 
@@ -21,13 +22,14 @@ header h1 {
 }
 
 nav {
-    background-color: #444;
+    background-color: #444; /* Dark navigation background color */
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -37,12 +39,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #fff; /* Light navigation text color */
     font-size: 1.2rem;
 }
 
 nav ul li a:hover {
-    color: #ffc107;
+    color: #ffc107; /* Hover color for navigation links */
 }
 
 main {
@@ -50,20 +52,19 @@ main {
 }
 
 section {
-    background-color: #fff;
+    background-color: #222; /* Dark section background color */
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light shadow */
     margin-bottom: 20px;
 }
 
 section h2 {
-    color: #333;
+    color: #fff; /* Light section heading color */
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #222; /* Dark footer background color */
     padding: 10px 0;
     text-align: center;
 }
