@@ -1,10 +1,11 @@
-@import 'https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Nunito:400,800,900|Poiret+One|Quicksand:400,500,700';
-
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Nunito:400,800,900|Poiret+One|Quicksand:400,500,700');
 
 html,
 body {
-  font-family: 'comfortaa', sans-serif;
+  font-family: 'Comfortaa', sans-serif; /* Use Comfortaa font */
   text-align: center;
+  color: #fff; /* Set text color to white */
+  background-color: #333; /* Set background color to dark */
 }
 
 * {
@@ -13,13 +14,12 @@ body {
 }
 
 /* Nav bar */
-
- nav ul {
+nav ul {
   position: fixed;
   text-align: right;
   width: 100%;
-  background-color: #Fff;
-  font-family: "comfortaa",sans-serif; 
+  background-color: #333; /* Dark background color */
+  font-family: 'Comfortaa', sans-serif; 
   font-size: 1.2em; 
 }
 
@@ -29,42 +29,40 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000;
+  color: #fff; /* White text color */
   text-decoration: none;  
 }
 nav ul li a:hover {
-  color: #ababab;
+  color: #ababab; /* Lighter text color on hover */
 }
 
 /* about me */
-
 #welcome-section {
   top: 20;
   line-height: 1.6;
-  background: #F5F5F5;
+  background: #222; /* Dark background color */
   min-height: 55vh;
   padding-top: 45vh;
-  text-align: 
+  text-align: center; /* Center text */
 }
-  
-/* the projects section */
 
+/* the projects section */
 .work {
   padding-top: 60px;
   margin-top: -60px;
   padding-bottom: 60px;
-  background-color: #dcdcdc;
+  background-color: #444; /* Darker background color */
 }
 
 .work .work-header {
   margin-top: 50px;
-  color: #111;
+  color: #fff; /* White text color */
   font-weight: normal;
 }
 
 .project {
   text-decoration: none;
-  background-color: #c4c4c4;
+  background-color: #666; /* Darker background color */
   display: inline-block;
   overflow: hidden;
   border: 2px solid #ababab;
@@ -82,20 +80,19 @@ nav ul li a:hover {
 }
 
 .project-title {
-  color: #111;
+  color: #fff; /* White text color */
   font-weight: bold;
   padding-top: 6px;
 }
 
 .project-title:hover {
   color: #939393;
-  
 }
 
 .show-all {
-  color: #111;
+  color: #fff; /* White text color */
   font-weight: bold;
-  background-color: #c4c4c4;
+  background-color: #666; /* Darker background color */
   display: block;
   width: 100px;
   text-decoration: none;
@@ -106,11 +103,10 @@ nav ul li a:hover {
 }
 
 .show-all:hover {
-  color: #111;
+  color: #fff; /* White text color */
   font-size: 15px;
   font-weight: bold;
-  background-color: #c4c4c4;
-  text-align: center;
+  background-color: #666; /* Darker background color */
   text-decoration: none;
   width: 80px;
   padding: 20px;
@@ -119,9 +115,8 @@ nav ul li a:hover {
 }
 
 /* contact */
-
 .contact {
-  background-color: #ababab;
+  background-color: #555; /* Darker background color */
   padding: 60px ;
   line-height: 1.6;
 }
@@ -129,11 +124,9 @@ nav ul li a:hover {
 .contact-details {
   padding: 60px;
   display: inline-block;
-  
 }
 
 /* mobile section */
-
 @media screen and (max-width: 400px) {
   nav ul {
     text-align: center;
