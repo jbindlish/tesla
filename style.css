@@ -1,140 +1,60 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Nunito:400,800,900|Poiret+One|Quicksand:400,500,700');
+/* Resetting default margin and padding */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
 
-html,
+/* Basic styling */
 body {
-  font-family: 'Comfortaa', sans-serif; /* Use Comfortaa font */
-  text-align: center;
-  color: #fff; /* Set text color to white */
-  background-color: #333; /* Set background color to dark */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-/* Nav bar */
+header h1 {
+    margin-bottom: 10px;
+}
+
 nav ul {
-  position: fixed;
-  text-align: right;
-  width: 100%;
-  background-color: #333; /* Dark background color */
-  font-family: 'Comfortaa', sans-serif; 
-  font-size: 1.2em; 
+    list-style-type: none;
 }
 
 nav ul li {
-  display: inline-block;
-  margin: 30px; 
+    display: inline;
+    margin-right: 15px;
 }
 
 nav ul li a {
-  color: #fff; /* White text color */
-  text-decoration: none;  
-}
-nav ul li a:hover {
-  color: #ababab; /* Lighter text color on hover */
+    color: #fff;
+    text-decoration: none;
 }
 
-/* about me */
-#welcome-section {
-  top: 20;
-  line-height: 1.6;
-  background: #222; /* Dark background color */
-  min-height: 55vh;
-  padding-top: 45vh;
-  text-align: center; /* Center text */
+main {
+    padding: 20px;
 }
 
-/* the projects section */
-.work {
-  padding-top: 60px;
-  margin-top: -60px;
-  padding-bottom: 60px;
-  background-color: #444; /* Darker background color */
+.class-section {
+    margin-bottom: 30px;
 }
 
-.work .work-header {
-  margin-top: 50px;
-  color: #fff; /* White text color */
-  font-weight: normal;
+h2 {
+    color: #333;
+    margin-bottom: 10px;
 }
 
-.project {
-  text-decoration: none;
-  background-color: #666; /* Darker background color */
-  display: inline-block;
-  overflow: hidden;
-  border: 2px solid #ababab;
-  border-radius: 5px;
-  height: 220px;
-  width: 280px;
-  margin: 40px 100px;
-}
-
-.project-pic {
-  width: 100%;
-  height: 180px;
-  border-bottom: 2px solid #ababab;
-  border-radius: 5px;
-}
-
-.project-title {
-  color: #fff; /* White text color */
-  font-weight: bold;
-  padding-top: 6px;
-}
-
-.project-title:hover {
-  color: #939393;
-}
-
-.show-all {
-  color: #fff; /* White text color */
-  font-weight: bold;
-  background-color: #666; /* Darker background color */
-  display: block;
-  width: 100px;
-  text-decoration: none;
-  padding: 20px;
-  border: 2px solid #ababab;
-  border-radius: 100px;
-  margin: 0 auto;
-}
-
-.show-all:hover {
-  color: #fff; /* White text color */
-  font-size: 15px;
-  font-weight: bold;
-  background-color: #666; /* Darker background color */
-  text-decoration: none;
-  width: 80px;
-  padding: 20px;
-  border: 2px solid #ababab;
-  border-radius: 100px;
-}
-
-/* contact */
-.contact {
-  background-color: #555; /* Darker background color */
-  padding: 60px ;
-  line-height: 1.6;
-}
-
-.contact-details {
-  padding: 60px;
-  display: inline-block;
-}
-
-/* mobile section */
-@media screen and (max-width: 400px) {
-  nav ul {
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
-  }
-  nav ul li {
-    margin: 20px;
-  }
-  .project {
-    margin: 40px 0;
-  }
+}
+
+footer p {
+    margin: 0;
 }
